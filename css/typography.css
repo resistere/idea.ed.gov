@@ -1,0 +1,91 @@
+body {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 77%;/* font sizing in ems, baby. if you want to change anything, just change this.*/
+	/*funny thing happens at 75% and lower. opera goes to a nice small size, but moz and ie pc change almost not at all. seems 76% is as small as you can go and stay the same across browsers.*/
+	color: #000;
+	/*letter-spacing: .2mm; */
+}
+	
+/*style for IE*/
+* html body {	
+ /*  font-family:  Helvetica, sans-serif, Verdana, Arial; */
+   	font-size: 84%;
+} 
+
+		
+
+/*typography*/
+#middle h1 {
+	font-size: 1.5em;
+	font-weight: normal;
+   color: #D85E02;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+   color: #D85E02;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #D85E02;
+	}
+
+h3 {
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #265485;
+	text-decoration: underline;
+	}
+
+h4 {
+	font-size: 1.2em;
+	font-weight: bold;
+	}
+
+h5 {
+	font-size: 1.0em;
+	font-weight: bold;
+	}
+
+h6 {
+	font-size: 0.8em;
+	font-weight: bold;
+	}
+
+
+ol, ul, li {
+	font-size: 1.0em;
+	}
+
+p {
+	font-size: 1.0em;
+	line-height: 1.3em;
+	}
+textarea {
+   font-size: 1.0em;
+}
+
+pre {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+}
+strong, b {
+	font-weight: bold;
+	}
+
+.recordlist dl, .recordlist li {
+	font-size: 1.0em;
+	}
+.recordlist dt {
+   font-size: 1.2em;
+}
+.recordlist a {
+	font-size: 1.0em;
+	font-weight: normal;
+	color: #265485;
+	text-decoration: underline;
+	}
+	

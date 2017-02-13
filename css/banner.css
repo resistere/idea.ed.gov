@@ -1,0 +1,89 @@
+#edbanner {
+	width: 877px;
+	min-width:790px;
+	height: 73px;
+	background: url(/images/ed_banner_fill.jpg) repeat-x;
+	position: relative;
+	margin-top: 10px;
+  margin-left: 18px
+}
+
+#splash_edbanner {
+	width: 790px;
+	height: 73px;
+	background: url(/images/ed_banner_fill.jpg) repeat-x;
+	position: relative;
+	margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+#bannerbg {
+	float: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#logo {
+	width: 112px;
+	height: 38px;
+	left: 10px;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 20px;
+}
+
+#slogan {
+	width: 254px;
+	height: 29px;
+	left: 160px;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 25px;
+}
+
+#searchbox {
+	width: 250px;
+	height: 40px;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 28px;
+	right: 10px;
+}
+
+#searchbox form {
+	display: inline;
+}
+
+#advsearch {
+	position: relative;
+	left: 110px;
+	margin: 0;
+	padding: 0;
+	width: 130px;
+}
+
+.leftNavSearchOptions A {
+	font-size: xx-small;
+	color: #131833;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}
+
+.leftNavSearchOptions A:hover {
+	text-decoration: underline;
+}
+
+.searchField {
+	color: #333333;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: xx-small;
+	width: 105px;
+}
